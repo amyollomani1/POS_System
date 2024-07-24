@@ -1,0 +1,49 @@
+/*Centers "button" in the middle of the page*/
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  margin:0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 27px;
+  background-color: #333;
+}
+
+.header nav a {
+  margin:0;
+  padding: 60px;
+  display:inline-block, flex;
+  color: inherit; /* Inherit color from header */
+  text-decoration: none; /* Remove underline */
+  color: #fff;
+  font-family: Palatino Linotype;
+  font-size: 20px; 
+  text-align: center;
+
+}
+
+.header .logo{
+  text-align: center;
+  font-family: Palatino Linotype;
+  font-size: 40px;
+
+}
+main {
+  padding-top: 80px; /* Add space after the header */
+}
+.menu-btn {
+  background-color: #199319;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.menu-btn:hover {
+  background-color: #223094;
+}
+
+
